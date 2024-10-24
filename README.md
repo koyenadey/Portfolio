@@ -37,19 +37,27 @@ To set up this project locally using Vite, follow these steps:
   cd koyena-portfolio
 ```
 
-3. Install the necessary dependencies:
+3. Create a .env file at the root of the project and set the below values:
+
+```
+  VITE_APP_EMAIL= <your email here>
+  VITE_APP_LINKEDIN= <your linked profile url>
+  VITE_APP_GITHUB= <url to github profile>
+```
+
+4. Install the necessary dependencies:
 
 ```
   npm install
 ```
 
-4. Start the development server with Vite:
+5. Start the development server with Vite:
 
 ```
   npm run dev
 ```
 
-5. Once the development server is running, you can view the portfolio by opening `http://localhost:5173/` in your browser.
+6. Once the development server is running, you can view the portfolio by opening `http://localhost:5173/` in your browser.
 
 ## 📦 Deployment
 

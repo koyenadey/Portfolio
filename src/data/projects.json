@@ -17,7 +17,7 @@
   },
   {
     "title": "My Portfolio",
-    "imageSrc": "projects/projectImage/bookmovieAct.png",
+    "imageSrc": "projects/projectImage/portfolio.png",
     "description": "This application is a showcase of my skills & expertise in web technologies.",
     "skills": [
       "projects/skills/react.png",
