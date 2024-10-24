@@ -1,0 +1,38 @@
+[
+  {
+    "role": "Frontend Developer",
+    "organisation": "Unfair Advantage",
+    "startDate": "Sept, 2023",
+    "endDate": "Dec 2023",
+    "experiences": [
+      "Worked on login features",
+      "Implemented features to enhance the user experience",
+      "Removed the bug in event managements"
+    ],
+    "imageSrc": "history/unfairadv.png"
+  },
+  {
+    "role": "Senior Analyst Developer",
+    "organisation": "Accenture",
+    "startDate": "Aug, 2019",
+    "endDate": "Sept, 2023",
+    "experiences": [
+      "Removed bugs in applications",
+      "Recreation of web app from legacy to modern versions.",
+      "Moved the projects from red to green status.",
+      "Increasing business by 30%."
+    ],
+    "imageSrc": "history/accenture.png"
+  },
+  {
+    "role": "Associate Developer",
+    "organisation": "AtoS",
+    "startDate": "Jan, 2015",
+    "endDate": "Aug, 2019",
+    "experiences": [
+      "Worked on implementing features replacing the legacy code in c#.",
+      "Helped create UI components"
+    ],
+    "imageSrc": "history/atos.png"
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "title": "ModaMorph",
+    "imageSrc": "projects/projectImage/modamorph_small.png",
+    "description": "This is an e-commerce website that uses a REST API to fetch data from a database. The website is hosted on Azure App Service.",
+    "skills": [
+      "projects/skills/react.png",
+      "projects/skills/redux.png",
+      "projects/skills/typescript.png",
+      "projects/skills/dotnetcore.png",
+      "projects/skills/postgres.png",
+      "projects/skills/appservice.png",
+      "projects/skills/mui.png"
+    ],
+    "demo": "https://shop-modamorph.netlify.app/",
+    "source": "https://github.com/koyenadey/ECommWebUI"
+  },
+  {
+    "title": "My Portfolio",
+    "imageSrc": "projects/projectImage/bookmovie_small.png",
+    "description": "This application is a showcase of my skills & expertise in web technologies.",
+    "skills": [
+      "projects/skills/react.png",
+      "projects/skills/typescript.png",
+      "projects/skills/css.png"
+    ],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "Weather App",
+    "imageSrc": "projects/projectImage/weatherapp.png",
+    "description": "A weather app that leverages weather api for the weather data and google maps",
+    "skills": [
+      "projects/skills/react.png",
+      "projects/skills/js.png",
+      "projects/skills/css.png"
+    ],
+    "demo": "https://my-weatherprediction-app.netlify.app",
+    "source": "https://github.com/koyenadey/WeatherApp"
+  },
+  {
+    "title": "Todo App",
+    "imageSrc": "projects/projectImage/bookmovie_small.png",
+    "description": "This is a simple todo app that allows users to add, edit, and delete todos.",
+    "skills": [
+      "projects/skills/react.png",
+      "projects/skills/js.png",
+      "projects/skills/scss.png",
+      "projects/skills/dotnetcore.png",
+      "projects/skills/sqlserver.png"
+    ],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/koyenadey/BootCampProj"
+  }
+]

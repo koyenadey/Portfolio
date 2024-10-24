@@ -1,0 +1,42 @@
+[
+  {
+    "title": "React",
+    "imageSrc": "skills/react.png"
+  },
+  {
+    "title": "Redux",
+    "imageSrc": "skills/redux.png"
+  },
+  {
+    "title": "TypeScript",
+    "imageSrc": "skills/TsSkill.png"
+  },
+  {
+    "title": "Javascript",
+    "imageSrc": "skills/JSSkill.png"
+  },
+  {
+    "title": "Asp.Net Core",
+    "imageSrc": "skills/netcoreSkill.png"
+  },
+  {
+    "title": "Azure Cloud",
+    "imageSrc": "skills/azureSkill.png"
+  },
+  {
+    "title": "PostgreSql",
+    "imageSrc": "skills/postgreSkill.png"
+  },
+  {
+    "title": "CSS",
+    "imageSrc": "skills/css.png"
+  },
+  {
+    "title": "Sass",
+    "imageSrc": "skills/scssSkill.png"
+  },
+  {
+    "title": "Material UI",
+    "imageSrc": "skills/MUISkill.png"
+  }
+]
