@@ -7,7 +7,7 @@ import styles from "@features/Projects/Projects.module.css";
 export const Projects = () => {
   const projects = projectData as projectType[];
   return (
-    <section className={styles.container}>
+    <section id="projects" className={styles.container}>
       <h2 className={styles.title}>Projects</h2>
       <div className={styles.project}>
         {projects.map((project, id) => (

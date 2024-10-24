@@ -1,0 +1,111 @@
+@import "@common/vars";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  background-color: transparent;
+  border-radius: 15px;
+  margin-top: 15%;
+  z-index: 1;
+}
+
+.topBlur {
+  position: absolute;
+  width: 20vw;
+  height: 20vw;
+  min-width: 20px;
+  min-height: 20px;
+  border-radius: 764px;
+  bottom: 0px;
+  left: 0;
+  background: rgba(25, 55, 109, 0.7);
+  filter: blur(100px);
+  z-index: 0;
+}
+
+.bottomBlur {
+  position: absolute;
+  width: 20vw;
+  height: 20vw;
+  min-width: 20px;
+  min-height: 20px;
+  border-radius: 764px;
+  bottom: 400px;
+  right: 0;
+  background: rgba(25, 55, 109, 0.7);
+  filter: blur(100px);
+  z-index: 0;
+}
+
+.content {
+  /* border: 5px solid rgb(3, 3, 20); */
+  border-radius: 10px;
+  height: 350px;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+  padding: 25px;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 1;
+}
+
+.title {
+  font-family: var(--font-radiocanada);
+  font-size: 55px;
+  font-weight: 300px;
+  color: rgba(223, 227, 237, 0.952);
+  text-align: center;
+  width: 90%;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 30%,
+    rgba(255, 255, 255, 0) 120%
+  );
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.subtitle {
+  font-family: var(--font-radiocanada);
+  color: var(--color-text);
+  font-size: 20px;
+  font-weight: 200;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.mailBtn {
+  background-color: rgba(166, 166, 214, 0.093);
+  border: 1px solid var(--color-text);
+  text-decoration: none;
+  color: var(--color-text);
+  padding: 10px 22px;
+  border-radius: 10px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 22px;
+  margin: 50px 20px;
+}
+
+.link {
+  height: 40px;
+  width: 40px;
+  margin: 0px 5px;
+  cursor: pointer;
+}
+
+.copyright {
+  font-family: var(--font-radiocanada);
+  color: var(--color-text);
+  font-size: 18px;
+  font-weight: 200;
+}

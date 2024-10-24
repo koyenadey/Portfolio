@@ -5,7 +5,8 @@
   --color-secondary: #19376d;
   --color-dark: #0b2447;
   --color-bg: #04152d;
+  --color-textSecondary: rgba(232, 226, 226, 0.986);
 
   /* Fonts */
-  --font-roboto: "Roboto";
+  --font-radiocanada: "Radio Canada";
 }

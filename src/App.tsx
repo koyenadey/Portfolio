@@ -6,6 +6,7 @@ import { Hero } from "@features/Hero/Hero";
 import { About } from "@features/About/About";
 import { Experience } from "@features/Experience/Experience";
 import { Projects } from "@features/Projects/Projects";
+import { Contact } from "@features/Contact/Contact";
 
 function App() {
   //const [count, setCount] = useState(0);
@@ -17,6 +18,7 @@ function App() {
       <About />
       <Experience />
       <Projects />
+      <Contact />
     </div>
   );
 }

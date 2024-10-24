@@ -5,25 +5,24 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 49px;
+  margin-top: 52px;
   z-index: 1;
   margin-left: 10%;
   margin-right: 10%;
 }
 
 .content {
-  /* border: 3px solid red; */
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   color: var(--color-text);
-  /* margin-top: 173px; */
   z-index: 1;
 }
 
 .title {
   font-size: 72px;
-  font-weight: 800;
+  font-weight: 700;
+  font-family: var(--font-radiocanada);
   margin-bottom: 33px;
   background: linear-gradient(
     90deg,
@@ -32,51 +31,26 @@
   );
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
-  /* overflow: hidden;
-  border-right: 0.15em solid white;
-  white-space: nowrap;
-  margin: 0 auto;
-  letter-spacing: 0.15em;
-  animation: typing 4.5s steps(40, end) 3.5s infinite,
-    blink-caret 0.5s step-end infinite;
-  animation-direction: alternate; */
-  /*  Typing and pause alternate */
-}
-
-/* The typing effect */
-@keyframes typing {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
-  }
-}
-
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-  from,
-  to {
-    border-color: transparent;
-  }
-  50% {
-    border-color: white;
-  }
 }
 
 .about {
-  font-size: 30px;
+  font-size: 28px;
   margin-bottom: 52px;
+  font-weight: 300;
+  color: var(--color-textSecondary);
+  font-family: var(--font-radiocanada);
 }
 
 .contactBtn {
   text-decoration: none;
-  background-color: var(--color-primary);
+  text-align: center;
+  background-color: var(--color-bg);
   color: var(--color-text);
   font-size: 30px;
   padding: 17px 26px;
   border-radius: 100px;
-  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 2.5);
+  /* border: 1px solid var(--color-text); */
+  /* box-shadow: 0 0 4px 0 rgba(0, 0, 0, 2.5);*/
 }
 
 .heroImg {
@@ -90,10 +64,10 @@
     transform: translate(0, 0px);
   }
   50% {
-    transform: translate(0, 40px);
+    transform: translate(0, 30px);
   }
   100% {
-    transform: translate(0, -5px);
+    transform: translate(0, -0px);
   }
 }
 
@@ -130,6 +104,20 @@
   .container {
     /* border: 3px solid green; */
     flex-direction: column-reverse;
+  }
+
+  .about {
+    font-size: 18px;
+  }
+
+  .contactBtn {
+    font-size: 18px;
+  }
+
+  .title {
+    margin-top: 20px;
+    font-size: 55px;
+    font-weight: 600px;
   }
   .content {
     align-items: center;
