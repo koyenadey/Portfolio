@@ -12,7 +12,6 @@ dist
 dist-ssr
 *.local
 tsconfig.node.json
-tsconfig.json
 tsconfig.app.json
 eslint.config.js
 
