@@ -13,7 +13,6 @@ export const ProjectCard = ({ project }: projectCard) => {
         alt={project.title}
       />
       <h3 className={styles.title}>{project.title}</h3>
-
       <div className={styles.cardCover}>
         <p className={styles.description}>{project.description}</p>
         <div className={styles.skills}>
