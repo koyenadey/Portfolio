@@ -3,6 +3,7 @@ import styles from "@features/Hero/Hero.module.css";
 import { getImgUrl } from "@utils/util";
 import Typewriter from "typewriter-effect";
 import { FaRegArrowAltCircleRight } from "react-icons/fa";
+import { AnimatePresence, motion } from "framer-motion";
 
 export const Hero = () => {
   const options = {
@@ -19,22 +20,35 @@ export const Hero = () => {
             options={options}
             onInit={(typewriter) => {
               typewriter
-                .typeString("Hi, I'm <br/>")
-                .typeString("Koyena")
+                .typeString("Hi !")
                 .pauseFor(1000)
                 .deleteAll()
-                .typeString("I am a Web Developer")
+                .typeString("I'm Koyena")
                 .pauseFor(1000)
+                .deleteAll()
+                .typeString("Möi !")
+                .pauseFor(1000)
+                .deleteAll()
+                .typeString("mä oon Kojena")
+                .pauseFor(2000)
                 .deleteAll()
                 .start();
             }}
           />
         </h1>
-        <p className={styles.about}>
-          I’m a passionate full-stack developer with a love for learning and
-          growth. I thrive on challenges because they help me evolve as both a
-          developer and an individual! Reach out if you'd like to know more!
-        </p>
+        <AnimatePresence>
+          <motion.p
+            initial={{ x: "-100%" }}
+            whileInView={{ x: 0 }}
+            exit={{ x: "100%" }}
+            transition={{ duration: 2 }}
+            className={styles.about}
+          >
+            I’m a passionate full-stack developer with a love for learning and
+            growth. I thrive on challenges because they help me evolve as both a
+            developer and an individual! Reach out if you'd like to know more!
+          </motion.p>
+        </AnimatePresence>
         <a className={styles.contactBtn} href="#">
           Download CV <FaRegArrowAltCircleRight />
         </a>

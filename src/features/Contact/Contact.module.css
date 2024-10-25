@@ -73,7 +73,7 @@
 .subtitle {
   font-family: var(--font-radiocanada);
   color: var(--color-text);
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 200;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -86,6 +86,7 @@
   color: var(--color-text);
   padding: 10px 22px;
   border-radius: 10px;
+  font-size: 20px;
 }
 
 .footer {
@@ -108,4 +109,33 @@
   color: var(--color-text);
   font-size: 18px;
   font-weight: 200;
+}
+
+@media screen and (max-width: 800px) {
+  .title {
+    font-size: 35px;
+    font-weight: 400;
+  }
+
+  .subtitle {
+    font-size: 16px;
+    font-weight: 100;
+    text-align: center;
+  }
+
+  .mailBtn {
+    font-size: 12px;
+    padding: 5px 15px;
+    border-radius: 5px;
+  }
+
+  .link {
+    height: 20px;
+    width: 20px;
+  }
+
+  .copyright {
+    font-size: 12px;
+    font-weight: 200;
+  }
 }

@@ -4,6 +4,7 @@ import historyData from "../../data/history.json";
 import { getImgUrl } from "@utils/util";
 import { skillsType, historyType } from "@common/type";
 import styles from "@features/Experience/Experience.module.css";
+import { AnimatePresence, motion } from "framer-motion";
 
 export const Experience = () => {
   const skills: skillsType[] = skillsData;
@@ -24,6 +25,7 @@ export const Experience = () => {
             );
           })}
         </div>
+
         <ul className={styles.history}>
           {history.map((historyItem, id) => {
             return (

@@ -19,7 +19,7 @@ export const Contact = () => {
           Reach out to me and lets find a solution together!
         </p>
         <a className={styles.mailBtn} href={`mailto:${email}`}>
-          Email Me <CiMail size={15} />
+          Email Me <CiMail />
         </a>
       </div>
       <div className={styles.footer}>

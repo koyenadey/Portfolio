@@ -20,8 +20,8 @@
 }
 
 .title {
-  font-size: 72px;
-  font-weight: 700;
+  font-size: 55px;
+  font-weight: 500;
   font-family: var(--font-radiocanada);
   margin-bottom: 33px;
   background: linear-gradient(
@@ -102,7 +102,6 @@
 
 @media screen and (max-width: 800px) {
   .container {
-    /* border: 3px solid green; */
     flex-direction: column-reverse;
   }
 
@@ -115,8 +114,8 @@
   }
 
   .title {
-    margin-top: 20px;
-    font-size: 55px;
+    margin-top: 50px;
+    font-size: 35px;
     font-weight: 600px;
   }
   .content {
