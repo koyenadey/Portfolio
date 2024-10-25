@@ -48,7 +48,11 @@ export const Hero = () => {
             developer and an individual! Reach out if you'd like to know more!
           </motion.p>
         </AnimatePresence>
-        <a className={styles.contactBtn} href="#">
+        <a
+          href={getImgUrl("cv/CV.pdf")}
+          download="CV"
+          className={styles.contactBtn}
+        >
           Download CV <FaRegArrowAltCircleRight />
         </a>
       </div>
