@@ -1,5 +1,3 @@
-import React, { useState } from "react";
-
 import Style from "./App.module.css";
 import { Navbar } from "@features/Navbar/Navbar";
 import { Hero } from "@features/Hero/Hero";

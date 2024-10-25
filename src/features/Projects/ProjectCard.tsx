@@ -1,4 +1,3 @@
-import React from "react";
 import { getImgUrl } from "@utils/util";
 import { projectCard } from "@common/type";
 import styles from "@features/Projects/ProjectCard.module.css";

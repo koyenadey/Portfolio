@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "@features/About/About.module.css";
 import { getImgUrl } from "@utils/util";
 import { AnimatePresence, motion } from "framer-motion";

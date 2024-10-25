@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "@features/Hero/Hero.module.css";
 import { getImgUrl } from "@utils/util";
 import Typewriter from "typewriter-effect";

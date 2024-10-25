@@ -1,10 +1,8 @@
-import React from "react";
 import skillsData from "../../data/skills.json";
 import historyData from "../../data/history.json";
 import { getImgUrl } from "@utils/util";
 import { skillsType, historyType } from "@common/type";
 import styles from "@features/Experience/Experience.module.css";
-import { AnimatePresence, motion } from "framer-motion";
 
 export const Experience = () => {
   const skills: skillsType[] = skillsData;

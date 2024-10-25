@@ -1,4 +1,3 @@
-import React from "react";
 import projectData from "../../data/projects.json";
 import { projectType } from "@common/type";
 import { ProjectCard } from "@features/Projects/ProjectCard";

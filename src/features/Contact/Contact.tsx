@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "@features/Contact/Contact.module.css";
 import { CiMail } from "react-icons/ci";
 import { getImgUrl } from "@utils/util";
