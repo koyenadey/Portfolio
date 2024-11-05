@@ -11,6 +11,8 @@ export const Hero = () => {
     delay: 80,
     deleteSpeed: 15,
   };
+  const email: string = import.meta.env.VITE_APP_EMAIL;
+
   return (
     <section className={styles.container}>
       <div className={styles.content}>
@@ -48,12 +50,13 @@ export const Hero = () => {
             developer and an individual! Reach out if you'd like to know more!
           </motion.p>
         </AnimatePresence>
-        <a
+        {/* <a
           href={getImgUrl("cv/CV.pdf")}
           download="CV"
           className={styles.contactBtn}
-        >
-          Download CV <FaRegArrowAltCircleRight />
+        > */}
+        <a className={styles.contactBtn} href={`mailto:${email}`}>
+          Contact me <FaRegArrowAltCircleRight />
         </a>
       </div>
       <img

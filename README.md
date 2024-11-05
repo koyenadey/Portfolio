@@ -65,7 +65,7 @@ The portfolio is hosted and deployed on Netlify. Every push updates the live sit
 
 # 📌 Demo
 
-To see the live demo of my website please visit on the link below :
+To see the live demo of my website please visit [here](https://koyena-portfolio.netlify.app/)
 
 # ✉️ Reach me
 
